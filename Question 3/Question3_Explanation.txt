@@ -1,0 +1,25 @@
+Question 3 – Explanation After Every Command
+
+mkdir Question3
+This command created the Question3 directory. It was used to organize all files related to this question.
+
+cd Question3
+This command changed the current directory to Question3. I could now create the required program files.
+
+nano employee_records.c
+This command opened the Nano editor. I wrote and saved the C program successfully.
+
+gcc employee_records.c -o employee_records
+This command compiled the C program into an executable file. The compilation completed successfully.
+
+./employee_records
+This command executed the program. It created a file, wrote employee records, updated a specific record using lseek(), and displayed the updated records.
+
+./employee_records > output.txt
+This command redirected the program output into output.txt. The output was stored successfully.
+
+cat output.txt
+This command displayed the contents of the output file. I verified the program output.
+
+cat employee.txt
+This command displayed the employee data stored in the file. I verified that the updated record was saved correctly.
