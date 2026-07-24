@@ -1,0 +1,28 @@
+Question 5 – Explanation After Every Command
+
+mkdir Question5
+This command created the Question5 directory. All files related to this question were stored here.
+
+cd Question5
+This command changed the working directory to Question5. I could now create and edit the required files.
+
+nano sample.txt
+This command opened the Nano editor. I created and saved a sample text file successfully.
+
+vi sample.txt
+This command opened the file in the vi editor. I edited the file to demonstrate the recovery process.
+
+vi -r sample.txt
+This command attempted to recover the file using the swap file created by the vi editor. It restored any available unsaved changes.
+
+:wq
+This command saved the recovered file and exited the vi editor successfully.
+
+cat sample.txt
+This command displayed the contents of the recovered file. I verified that the file contained the expected data.
+
+nano recovery_steps.txt
+This command opened the Nano editor to create a document describing the recovery procedure. The file was saved successfully.
+
+nano explanation.txt
+This command opened the Nano editor to create the explanation document. I documented the recovery mechanisms and best practices for using the vi editor.
