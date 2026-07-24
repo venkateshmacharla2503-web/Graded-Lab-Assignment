@@ -1,0 +1,22 @@
+Question 2 – Explanation After Every Command
+
+mkdir Question2
+This command created the Question2 directory. All files related to Question 2 were stored in this folder.
+
+cd Question2
+This command changed the current directory to Question2. I could now create the required files.
+
+nano process_manager.c
+This command opened the Nano editor. I wrote and saved the C program successfully.
+
+gcc process_manager.c -o process_manager
+This command compiled the C source file into an executable program. The compilation completed successfully without errors.
+
+./process_manager
+This command executed the program. The parent process created a child process, monitored it, terminated it using a signal, and prevented a zombie process using wait().
+
+./process_manager > output.txt
+This command redirected the program output into output.txt. The output was saved successfully.
+
+cat output.txt
+This command displayed the saved output file. I verified that the program executed correctly.

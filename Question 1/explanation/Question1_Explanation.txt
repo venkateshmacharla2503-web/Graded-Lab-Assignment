@@ -1,0 +1,49 @@
+Question 1 – Explanation After Every Command
+
+mkdir Question1
+This command created a new directory named Question1 to store all files related to the first question. The folder was created successfully.
+
+cd Question1
+This command changed the current working directory to the Question1 folder. I was then able to create files inside this directory.
+
+mkdir submissions
+This command created a submissions folder to store sample student assignment files. The directory was created successfully.
+
+cd submissions
+This command entered the submissions folder. I could now create sample submission files inside it.
+
+echo "Assignment by Student1" > student1.txt
+This command created student1.txt and stored sample assignment content in it. The file was created successfully.
+
+cp student1.txt student2.txt
+This command copied student1.txt to student2.txt, creating a duplicate submission. The duplicate file was successfully created.
+
+echo "Assignment by Student3" > student3.txt
+This command created another unique submission file named student3.txt. The file was stored successfully.
+
+ls
+This command listed all files in the current directory. I verified that all sample submission files were present.
+
+cd ..
+This command moved back to the Question1 directory. I was then ready to continue the remaining tasks.
+
+mkdir backup
+This command created a backup folder for storing unique submission files. The directory was created successfully.
+
+nano duplicate_check.sh
+This command opened the Nano editor to create the shell script. I wrote and saved the script successfully.
+
+chmod +x duplicate_check.sh
+This command gave execute permission to the shell script. The script became executable.
+
+./duplicate_check.sh
+This command executed the shell script. It detected duplicate files, backed up unique files, and generated report and error files.
+
+cat report.txt
+This command displayed the generated report. I verified the number of processed, duplicate, and backed-up files.
+
+cat errors.txt
+This command displayed the error log. Since no errors occurred, the file was empty.
+
+ls backup
+This command listed the contents of the backup folder. I verified that only unique files were backed up.
