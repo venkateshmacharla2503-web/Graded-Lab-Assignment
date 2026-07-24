@@ -1,0 +1,31 @@
+Question 4 – Explanation After Every Command
+
+mkdir Question4
+This command created the Question4 directory. It was used to store all files for this question.
+
+cd Question4
+This command changed the working directory to Question4. I was then able to create the required files.
+
+nano system.log
+This command opened the Nano editor. I created and saved a sample log file successfully.
+
+cat system.log
+This command displayed the log file. I verified that all log entries were stored correctly.
+
+tail -f system.log
+This command continuously monitored the log file. Any new log entries were displayed in real time.
+
+grep "ERROR" system.log
+This command searched for ERROR messages in the log file. Only the matching lines were displayed.
+
+grep "ERROR" system.log > error_report.txt
+This command redirected all ERROR messages into error_report.txt. The report file was created successfully.
+
+cat error_report.txt
+This command displayed the contents of the error report. I verified that only ERROR messages were stored.
+
+tail -f system.log | grep "ERROR"
+This command used a pipeline to display only new ERROR messages in real time. It combined the output of tail with grep.
+
+grep "ERROR" system.log > error_report.txt 2> /dev/null
+This command stored ERROR messages in the report file and redirected any error messages to /dev/null, keeping the output clean.
